@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    max-width: 100%;
+    height: 9%;
+    padding: 2px 40px;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    max-height: 6vh;
+}
+
+ul li:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.logo-image{
+    width: auto;
+    height: 50%;
+}
+
+input {
+    width: 413px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #BEBEBE;
+    border-radius: 8px;
+    outline: none;
+    text-indent: 10px;
+}
+
+
+.image-lupa{
+    width: 20px;
+    position: fixed;
+    right: 52px;
+    top: 23px;
+    transform: rotate(270deg);
+}
+
+section{
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+
+/* div information */
+.informations{
+    width: 18%;
+    display: none;
+}
+
+.user-image{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.user-name{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #EC9B69;
+}
+
+.user-username{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #313131;
+    opacity: 0.5;
+}
+
+.user-description{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #313131;
+    opacity: 0.5;
+}
+
+.user-visibility{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-;
+    align-content: center;
+}
+
+.repositories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    background: #f7f5f5;
+}
+.user-followers{
+   padding: 0 8px;
+}
+.user-repositories  {
+    padding: 0 8px;
+}
+
+.error{
+    min-height: 50%;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+.error-title{
+    width: 100%;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 60px;
+    color: #EC9B69;
+}
+
+.error-paragraph{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 60px;
+    color: #313131;
+    opacity: 0.5;
+}
+
+.error-image{
+    width: 90%;
+    height: 56%;
+}
+
+footer{
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #313131;
+    opacity: 0.5;
+}
+
+a {
+    color: #EC9B69;
+    opacity: 1;
+    text-decoration: none;
+}
